@@ -1,21 +1,44 @@
-import {StyleSheet} from "react-native"
-export default StyleSheet.create( {
+import { StyleSheet } from "react-native"
+export default StyleSheet.create({
     // On-Boarding part
-    
+
     heading: {
-        fontfamily: "Urbanist",
-        fontWeight: 700,
+        fontFamily: "Urbanist",  // ✅ Properly enclosed in quotes
+        fontWeight: "700",       // ✅ Font weight should be a string in React Native
         fontSize: 32,
         lineHeight: 35.2,
+        textAlign: "center",
     },
+
+    forgotPasswordLogin: {
+        fontFamily: "Urbanist",
+        fontWeight: "600",
+        fontSize: 16,
+        lineHeight: 22.4,
+        letterSpacing: 0.2,
+        textAlign: "center",
+        color: "#2B2162", // ✅ Correct color
+        marginTop: 20,
+    },
+
+    forgotPasswordLogin: {
+        fontFamily: "Urbanist",
+        fontWeight: "600",
+        fontSize: 16,
+        lineHeight: 22.4,
+        letterSpacing: 0.2,
+        textAlign: "center",
+        color: "#2B2162", // ✅ Correct color
+        marginTop: 20,
+    },
+
 
     subheading: {
         fontfamily: "Urbanist",
-        fontWeight:400,
-        fontSize:16,
-        lineHeight:22.4,
+        fontWeight: 400,
+        fontSize: 16,
+        lineHeight: 22.4,
     },
-
 
     maintxt: {
         fontfamily: "Urbanist",
@@ -31,7 +54,7 @@ export default StyleSheet.create( {
         lineHeight: 44,
     },
 
-    buttontypo:{
+    buttontypo: {
         fontfamily: "Urbanist",
         fontWeight: 700,
         fontSize: 16,
@@ -55,6 +78,17 @@ export default StyleSheet.create( {
         lineHeight: 28.8,
 
     },
+    //Instruction
+    InstructionText: {
+        width: 380,
+        height: 44,
+        fontfamily: "Urbanist",
+        fontWeight: 400,
+        fontSize: 16,
+        lineHeight: 22.4,
+        letterSpacing: 0.2,
+        background: 212121,
+    },
 
     //Home & Action Menu 
     SearchBar: {                //Search
@@ -66,7 +100,7 @@ export default StyleSheet.create( {
 
     subTitle: {
         fontfamily: "Urbanist",  //Recent Project + Notification part + Inbox Sec (msg)
-        fontWeight:700,
+        fontWeight: 700,
         fontSize: 18,
         lineHeight: 21.6,
     },
@@ -87,14 +121,14 @@ export default StyleSheet.create( {
         lineHeight: 19.6,
     },
 
-    card_chip:{                  //80/90 + search bar 
+    card_chip: {                  //80/90 + search bar 
         fontfamily: "Urbanist",
         fontWeight: 600,
         fontSize: 14,
         lineHeight: 19.6,
     },
 
-    card_chips:{
+    card_chips: {
         fontfamily: "Urbanist",
         fontWeight: 400,
         fontSize: 12,
@@ -109,7 +143,7 @@ export default StyleSheet.create( {
         fontSize: 20,
         lineHeight: 24,
     },
-    
+
     Task_descp: {
         fontfamily: "Urbanist",
         fontWeight: 400,
@@ -118,14 +152,14 @@ export default StyleSheet.create( {
     },
 
     //05 Create & Edit 
-    CE_Typo:{                    // E-wallet part + 6 Inbox Section Call & Chat 
+    CE_Typo: {                    // E-wallet part + 6 Inbox Section Call & Chat 
         fontfamily: "Urbanist",
         fontWeight: 700,
         fontSize: 32,
         lineHeight: 35.2,
     },
 
-    CE_button_ty:{
+    CE_button_ty: {
         fontfamily: "Urbanist",
         fontWeight: 700,
         fontSize: 18,
@@ -133,11 +167,80 @@ export default StyleSheet.create( {
     },
 
     //06 Profile & Setting  yet name to decide 
-    other_info:{
+    other_info: {
         fontfamily: "Urbanist",
         fontWeight: 600,
         fontSize: 18,
         lineHeight: 25.2,
+    },
+
+    //Home page
+    textNum: {
+        fontSize: 24,
+        fontWeight: "700",
+        color: "#212121",
+        lineHeight: 28.8,
+        fontFamily: "Urbanist",
+        marginBottom: 5,
+
+      },
+      textLabel: {
+        fontFamily: "Urbanist",
+        fontWeight: "700",
+        fontSize: 14,
+        color: "#424242",
+        lineHeight: 19.6,
+        letterSpacing: 0.2,
+        textAlign: "center",
+        marginTop: 5,
+      },
+      upComingUp :{
+        fontFamily: "Urbanist",
+        fontWeight: "700",
+        fontSize: 18,
+        lineHeight: 21.6,
+        color : "#212121",
+      },
+      SeeallText:{
+        color : "#246BFD",
+        fontFamily: "Urbanist",
+        fontWeight: "700",
+        fontSize: 16,
+        lineHeight: 22.4,
+        letterSpacing: 0.2,
+        textAlign: "right",
+        flex:1
+    },
+    cardname :{
+        width: 288,
+        height: 24,
+        color : "#212121",
+        fontFamily: "Urbanist",
+        fontWeight: "700",
+        fontSize: 20,
+        lineHeight: 24,
+        letterSpacing: 0,
+    },
+    cardnum :{
+        width: 288,
+        height: 20,
+        color : "#424242",
+        fontFamily: "Urbanist",
+        fontWeight: "400",
+        fontSize: 14,
+        lineHeight: 19.6,
+        letterSpacing: 0.2,
+    },
+    carddate :{
+        width: 288,
+        height: 20,
+        color : "#424242",
+        fontFamily: "Urbanist",
+        fontWeight: "400",
+        fontSize: 14,
+        lineHeight: 19.6,
+        letterSpacing: 0.2,
+
     },
 }
 );
