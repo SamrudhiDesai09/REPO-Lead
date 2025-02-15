@@ -6,7 +6,7 @@ const HeaderComp = ()=>{
             <View style={styles1.headerstyle}>
             <Image source={require("../assets/images/Frame.png")}  style={styles1.frame}/>
             <View style={styles1.frameimage}>
-                <Image source={require("../assets/icons/bell.png")}  style={styles1.bell}/>
+                <Image source={require("../assets/icons/Notification/notification2x.png")}  style={styles1.bell}/>
                 <Image source={require("../assets/images/Avatar.png")}  style={styles1.avtar}/>
             </View>
             </View> 

@@ -1,9 +1,10 @@
+import React from "react";
 import { View, Text } from "react-native";
 const CustomText = (props) => {
     return (
-       
-            <Text style={props.style}>{props.text}</Text>
-       
+        <View>
+            <Text style={props.customstyle}>{props.text}</Text>
+        </View>
     );
 };
 export default CustomText;

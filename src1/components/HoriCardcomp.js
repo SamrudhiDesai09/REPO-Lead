@@ -9,29 +9,29 @@ const HoriCardcomp = () => {
     <ScrollView horizontal showsHorizontalScrollIndicator={false} style={style.scrollContainer}>
       <View style={cardstyle.project}>
               <View style={{paddingRight:50, padding:10}}>
-              <CustomText style={TextStyle.textNum} text = {"1,642"}/>
-              <CustomText style={TextStyle.textLabel} text = {"Total Leads"}/>
+              <CustomText customstyle={TextStyle.textNum} text = {"1,642"}/>
+              <CustomText customstyle={TextStyle.textLabel} text = {"Total Leads"}/>
               </View>
       </View>
 
       <View style={cardstyle.project}>
               <View style={{paddingRight:50, padding:10}}>
-              <CustomText style={TextStyle.textNum} text = {"3,642"}/>
-              <CustomText style={TextStyle.textLabel} text = {"Total Clients"}/>
+              <CustomText customstyle={TextStyle.textNum} text = {"3,642"}/>
+              <CustomText customstyle={TextStyle.textLabel} text = {"Total Clients"}/>
               </View>
       </View>
 
       <View style={cardstyle.project}>
               <View style={{paddingRight:50, padding:10}}>
-              <CustomText style={TextStyle.textNum} text = {"1,041"}/>
-              <CustomText style={TextStyle.textLabel} text = {"Total Tasks"}/>
+              <CustomText customstyle={TextStyle.textNum} text = {"1,041"}/>
+              <CustomText customstyle={TextStyle.textLabel} text = {"Total Tasks"}/>
               </View>
       </View>
 
       <View style={cardstyle.project}>
               <View style={{paddingRight:50, padding:10}}>
-              <CustomText style={TextStyle.textNum} text = {"1523"}/>
-              <CustomText style={TextStyle.textLabel} text = {"Total Pending"}/>
+              <CustomText customstyle={TextStyle.textNum} text = {"1523"}/>
+              <CustomText customstyle={TextStyle.textLabel} text = {"Total Pending"}/>
               </View>
       </View>
     </ScrollView>
